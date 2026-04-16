@@ -1,0 +1,165 @@
+body {
+  background: white;
+}
+.resources {
+  font-size: 12px;
+  color: red;
+  margin-bottom: none;
+  text-align: center;
+  font-family: sans-serif;
+}
+/*#info {*/
+/*    font-size: 12px;*/
+/*  color: mediumpurple;*/
+/*  margin-bottom: 1vh;*/
+  
+/*}*/
+h1 {
+  font-weight: bold;
+}
+h3 {
+  font-size: 15px;
+}
+h4 {
+  color: white;
+  font-family: sans-serif;
+}
+h5 {
+  color: mediumpurple;
+  font-family: sans-serif;
+}
+.mobile-device {
+  border-style: solid;
+  height: 95vh;
+  width: 50vh;
+  border-radius: 8vh;
+}
+
+.top-panel {
+  background-color: gainsboro;
+  height: 12vh;
+  border-top-left-radius: 8vh;
+  border-top-right-radius: 8vh;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#display {
+  background-color: white;
+  height: 47vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  color: red;
+  font-family: sans-serif;
+  margin-top: 2vh;
+  font-size: 14px;
+}
+.bottom-panel {
+  background-color: gainsboro;
+  height: 12vh;
+  border-bottom-left-radius: 8vh;
+  border-bottom-right-radius: 8vh;
+  margin-top: 23px;
+}
+.circle {
+  background-color: black;
+  border-radius: 50%;
+  height: 20px;
+  width: 20px;
+  margin: auto;
+}
+.home {
+  background-color: blackactive;
+  display: flex;
+  flex-direction: row;
+  height: 40px;
+  width: 40px;
+  border-style: solid;
+  margin: auto;
+}
+#logo {
+  height: 30vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#poster {
+  height: auto;
+  width: 30vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-start;
+  gap: 2vh;
+  margin-left: 2vh;
+  margin-right: 2vh;
+}
+.buttonStyle {
+  background-color: mediumpurple;
+  color: white;
+  font-family: sans-serif;
+  height: 30px;
+  width: 88px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  border-style: solid;
+  margin: auto;
+  text-align: center;
+  border-color: mediumpurple;
+  text-decoration: none;
+}
+#displayHotline {
+  background-color: white;
+  height: 59vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#website {
+  height: 37vh;
+  width: 30vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#displayContactUs {
+  background-color: white;
+  height: 53vh;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  color: red;
+  font-family: sans-serif;
+  margin-bottom: 6vh;
+}
+  #attributions {
+  background-color: white;
+  height: 51vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: purple;
+  font-family: sans-serif;
+  margin-top: 2vh;
+  font-size: 7px;
+  flex-wrap: wrap;
+}
+ #attributionsLink a {
+     color: red;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     padding: 5px;
+ }
